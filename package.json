@@ -1,0 +1,17 @@
+{
+  "name": "forecast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "env-cmd node src/app.js"
+  },
+  "author": "Mitin Anton",
+  "license": "ISC",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "postman-request": "^2.88.1-postman.30"
+  }
+}
